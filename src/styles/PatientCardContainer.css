@@ -1,0 +1,18 @@
+.patient-card-container {
+    display: flex;
+    gap: 16px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 16px;
+}
+
+.patient-card {
+    display: grid;
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    overflow: scroll;
+}

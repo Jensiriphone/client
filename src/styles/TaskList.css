@@ -1,0 +1,19 @@
+.task-list-container {
+    display: flex;
+    gap: 16px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 16px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.task-list-card {
+    background-color: aliceblue;
+        /* display: flex; */
+        border: 1px solid black;
+        width: 150px;
+        height: 250px;
+        padding: 10px;
+        overflow: hidden;
+    }
